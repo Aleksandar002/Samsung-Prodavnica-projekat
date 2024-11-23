@@ -1,4 +1,4 @@
 User-agent: *
-Disallow
+Disallow: /img/
 
 sitemap : https://github.com/Aleksandar002/Samsung-Prodavnica-projekat/sitemap.xml
