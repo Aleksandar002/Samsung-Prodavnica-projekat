@@ -1,0 +1,647 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.nav {
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+
+}
+
+
+
+.nav .pic {
+
+    margin-left: 50px;
+    padding: 25px;
+}
+
+.nav-list .nav-pod {
+
+    display: inline;
+    margin-right: 80px;
+    font-size: 30px;
+}
+
+.nav-list .nav-pod a {
+
+    text-decoration: none;
+    color: #123740;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+
+.nav-list .nav-pod a:hover {
+    background-color: #549aab;
+}
+
+
+
+.sam-image {
+    background-image: url('../img/samsung2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sam-image .sam-text {
+
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.sam-image .sam-text a {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+}
+
+.tele-kartice {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tele-kartice .tele {
+    width: 300px;
+    margin: 10px 20px;
+    height: 600px;
+    box-shadow: 0 2px 8px 0 rgba(99, 99, 99, .2);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tele img {
+    width: 100%;
+    height: 300px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.tele h1 {
+
+    text-align: center;
+}
+
+.tele a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 25px;
+    display: block;
+    width: 150px;
+    margin: 15px auto;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+
+
+}
+
+.din {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.din .euro {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.din .euro:nth-child(1) {
+    background-color: #549aab;
+    color: #aa0082;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.din .euro:nth-child(2) {
+    color: #3c06a9;
+    font-size: 25px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 80px;
+    text-align: center;
+}
+
+.footer-content p {
+    color: #549aab;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.social-icons i {
+    font-size: 30px;
+    margin: 10px 10px;
+    color: white;
+}
+
+.zvoni {
+    text-align: left;
+    font-size: 30px;
+    transform: translateY(-50%);
+    animation: zvoniTelefon 2s linear infinite;
+}
+
+@keyframes zvoniTelefon {
+
+    from,
+    20%,
+    40%,
+    60%,
+    80%,
+    to {
+        transform: translateY(-20%);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateY(-85%);
+    }
+}
+
+/* PRODAJAAAAAA */
+
+.pozadina {
+    background-image: url('../img/pozadina.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+
+
+}
+
+.pozadina1 {
+
+    font-size: 20px;
+    text-align: center;
+    color: white;
+
+}
+
+.pozadina1 a {
+
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.teleP-kartice {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.teleP-kartice .teleP {
+    width: 280px;
+    margin: 10px 20px;
+    height: 580px;
+    box-shadow: 0 2px 8px 0 rgba(99, 99, 99, .2);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.teleP img {
+    width: 100%;
+    height: 300px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.teleP h1 {
+
+    text-align: center;
+}
+
+.teleP a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 25px;
+    display: block;
+    width: 150px;
+    margin: 15px auto;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+
+
+}
+
+.dinP {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dinP .euroP {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.dinP .euroP:nth-child(1) {
+    background-color: #549aab;
+    color: #aa0082;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.dinP .euroP:nth-child(2) {
+    color: #3c06a9;
+    font-size: 25px;
+}
+
+/* kuuuuuuuuuuupoooooooooooviiiiiiiiiiiinaaaaaaaaaaaaaaaa*/
+
+.form {
+    background-image: url('../img/planina.jpg');
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #123740;
+}
+
+.form-upis {
+    margin: 15px 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #123740;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+input[type="submit"] {
+    background-color: #123740;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+input[type="submit"]:hover {
+    background-color: #549aab;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav .pic {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .nav-list .nav-pod {
+        display: block;
+
+        margin-right: 15px;
+        margin-bottom: 10px;
+    }
+
+    .sam-image {
+        background-image: url('../img/samsung2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .sam-image .sam-text {
+        font-size: 13px;
+    }
+
+    .sam-image .sam-text a {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .tele-kartice {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .tele-kartice .tele {
+        width: 80%;
+        margin: 10px 0;
+        height: auto;
+    }
+
+    .tele img {
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+
+    .tele h1 {
+        font-size: 18px;
+    }
+
+    .tele a {
+        width: 60%;
+        font-size: 12px;
+    }
+
+    .din .euro:nth-child(1) {
+        padding: 5px 5px;
+    }
+
+    footer {
+        padding: 40px;
+    }
+
+    .footer-content p {
+        font-size: 12px;
+    }
+
+    .social-icons i {
+        font-size: 24px;
+        margin: 5px 5px;
+    }
+
+    .zvoni {
+        font-size: 24px;
+    }
+
+                          /*  prodajaa     */
+
+    .pozadina {
+        height: auto
+    }
+
+
+    .teleP-kartice {
+        height: auto;
+
+        flex-direction: column;
+
+    }
+
+    .teleP-kartice .teleP {
+        width: 70%;
+
+        margin: 10px 0;
+
+        height: auto;
+
+    }
+
+    .teleP img {
+        height: auto;
+
+    }
+
+    .teleP a {
+        width: 70%;
+
+    }
+
+    .dinP .euroP:nth-child(1) {
+        padding: 5px;
+
+    }
+
+    .footer-content {
+        padding: 10px;
+
+    }
+
+                            /* PRIJAVA  */
+
+    .nav {
+        text-align: center;
+    }
+
+    .nav-pic {
+        display: none;
+
+    }
+
+    .nav-list {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .nav-pod {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .form {
+        background-image: url('../img/planina.jpg');
+        width: 90%;
+
+
+        box-sizing: border-box;
+    }
+
+    h2 {
+        color: #123740;
+    }
+
+    .form-upis {
+        margin: 15px 0;
+    }
+
+    input,
+    select {
+        width: 80%;
+    }
+
+    .mapa {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mapa iframe {
+        max-width: 100%;
+        width: 80%;
+
+        height: 300px;
+
+        margin: 0 auto;
+
+        display: block;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+    .nav .pic {
+        margin-left: 20px;
+        padding: 15px;
+    }
+
+    .nav-list .nav-pod {
+        margin-right: 40px;
+        font-size: 20px;
+    }
+
+    .sam-image {
+        background-image: url('../img/samsung2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 100vh;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sam-image .sam-text {
+        font-size: 16px;
+    }
+
+    .teleP-kartice {
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .teleP {
+        width: 45%;
+        margin: 10px;
+    }
+
+    .teleP img {
+        height: 200px;
+    }
+
+    .teleP h1 {
+        font-size: 18px;
+    }
+
+    .teleP a {
+        font-size: 14px;
+    }
+
+    .din .euro {
+        font-size: 16px;
+    }
+
+    footer {
+        padding: 40px;
+    }
+
+    .footer-content p {
+        font-size: 12px;
+    }
+
+    .social-icons i {
+        font-size: 24px;
+        margin: 5px 5px;
+    }
+
+    .zvoni {
+        font-size: 24px;
+    }
+
+                        /*   prijava     */
+
+    .nav-pic {
+        display: block;
+    }
+
+    .nav-list {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .nav-pod {
+        margin: 0 15px;
+    }
+  
+
+    /*prodajaaaaa */
+
+    .pozadina {
+        height: 150vh;
+    }
+
+    .teleP-kartice{
+        height: 70vh;
+    }
+
+    .teleP-kartice .teleP {
+        width: 45%; 
+    }
+   
+}
+
+
